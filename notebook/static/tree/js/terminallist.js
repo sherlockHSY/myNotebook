@@ -99,7 +99,7 @@ define([
         var link = item.find("a.item_link")
             .attr('href', utils.url_path_join(this.base_url, "terminals",
                 utils.encode_uri_components(name)));
-        link.attr('target', IPython._target||'_blank');
+        link.attr('target', '_self');
         this.add_shutdown_button(name, item);
     };
     

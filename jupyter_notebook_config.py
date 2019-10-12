@@ -79,7 +79,7 @@ c.NotebookApp.allow_origin = '*'
 #  
 #  Local IP addresses (such as 127.0.0.1 and ::1) are allowed as local, along
 #  with hostnames configured in local_hostnames.
-c.NotebookApp.allow_remote_access = True
+#c.NotebookApp.allow_remote_access = ''
 
 ## Whether to allow the user to run the notebook as root.
 c.NotebookApp.allow_root = True

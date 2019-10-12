@@ -343,7 +343,7 @@ c.NotebookApp.token = ''
 #  uses.
 c.NotebookApp.tornado_settings = {
     "headers":{
-		"Content-Security-Policy": "frame-ancestors self http://127.0.0.1:7001 http://*.*.*.*:8080 http://localhost:8080 http://47.96.95.75:7001 http://47.96.95.75:8888; report-uri /api/security/csp-report"
+		"Content-Security-Policy": "frame-ancestors self http://127.0.0.1:7001 http://*.*.*.*:8080 http://localhost:8080 http://47.106.213.116:7001 http://47.106.213.116:8888; report-uri /api/security/csp-report"
 	 }
 }
 

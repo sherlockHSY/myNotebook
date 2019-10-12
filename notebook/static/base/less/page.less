@@ -27,7 +27,7 @@ body > #header {
     z-index: 100;
 
     #header-container {
-        display: none;
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding: 5px;
@@ -58,6 +58,7 @@ body > #header {
 }
 
 #ipython_notebook {
+    display: none;
     padding-left: 0px;
     padding-top: (@navbar-height - @logo_height) / 2;
     padding-bottom: (@navbar-height - @logo_height) / 2;
